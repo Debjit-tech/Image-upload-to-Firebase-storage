@@ -30,7 +30,7 @@ public class Main2Activity extends AppCompatActivity {
         myref=database.getReference().child("User").child(UNAME);
 
         storage=FirebaseStorage.getInstance();
-        storageReference=storage.getReferenceFromUrl("gs://database-app-5203d.appspot.com").child(UNAME+".jpg");
+        storageReference=storage.getReferenceFromUrl("PUT YOUR STORAGE LINK WHERE THE FILE IS STORED").child(UNAME+".jpg");
 
         final ProgressBar pgbar=findViewById(R.id.pgbar);
         final TextView details=findViewById(R.id.details);
