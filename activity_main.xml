@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/baloo"
+        android:text="Cyberdroid"
+        android:textSize="34dp"
+        android:textColor="#FF6D00"/>
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/unknownperson"
+        app:civ_border_color="#FF9800"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/inputboxbg"
+        android:layout_marginTop="420dp"
+        android:paddingLeft="20dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textColorHint="#5C5C5C"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/inputboxbg"
+        android:layout_marginTop="520dp"
+        android:paddingLeft="20dp"
+        android:hint="Phone"
+        android:textSize="20dp"
+        android:textColorHint="#5C5C5C"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="660dp"
+        android:background="#FF9800"
+        android:text="Create Profile"
+        android:textColor="#000000"/>
+
+
+
+
+
+</RelativeLayout>
